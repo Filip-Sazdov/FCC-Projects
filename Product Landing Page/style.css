@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    background: black;
+    border: 1px solid black;
+}
+
+#header-img {
+    height: 150px;
+}
+
+nav {
+    border: 1px solid red;
+    padding: 0;
+    margin: auto auto;
+}
+
+#nav-bar>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 5px solid yellow;
+    height: auto;
+    width: auto;
+}
+
+.nav-link {
+    display: inline-block;
+    background-color: aqua;
+}
+
+a {
+    align-self: flex-start;
+}
